@@ -36,7 +36,8 @@ marquee {
 
 .home-banner {
     background: url('background - Copy.jpg') no-repeat center;
-    background-size: 1200px 900px;
+    background-size: cover;
+
     padding: 100px;
     margin: 10px;
     color: black;
@@ -45,7 +46,8 @@ marquee {
 
 .about-section {
     background: url('Image4.jpg') no-repeat center;
-    background-size: 1200px 900px; /* Adjust to cover the entire section */
+    background-size: cover; /* Ensure the background covers the entire section */
+
     padding: 100px; /* Add padding for content */
     color: white;
     font-weight: 500; /* Change text color for better visibility */
@@ -71,7 +73,8 @@ button {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
     gap: 30px; /* Space between grid items */
     background: url('background - Copy.jpg') no-repeat center; 
-    background-size: 1200px 1000px;/* Ensure the background covers the entire section */
+    background-size: cover; /* Ensure the background covers the entire section */
+
     margin-top: 40px; /* Add margin to create a gap above the gallery */
     padding: 10px; /* Add padding for spacing */
 }
